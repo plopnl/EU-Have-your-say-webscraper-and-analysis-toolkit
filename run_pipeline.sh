@@ -166,3 +166,7 @@ while true; do
             ;;
         9)
             echo -e "${GREEN}✅ Exiting pipeline menu.${RESET}"
+            exit 0 
+            ;; 
+    esac 
+done
